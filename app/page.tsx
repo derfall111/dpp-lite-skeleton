@@ -96,7 +96,7 @@ function EvidenceUpload({ products }: { products: Product[] }) {
     if (issuer) fd.append('issuer', issuer);
     const res = await fetch('/api/evidences', { method: 'POST', body: fd });
     const data = await res.json();
-    if (!res.ok) { alert('Erreur: ' + data?.error ?? ''); return; }
+    if (!res.ok) { alert('Erreur: ' + (data?.error ?? '')); return; }
     alert('Preuve enregistrée. SHA-256: ' + data.sha256Hex);
   }
 
