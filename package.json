@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@prisma/client": "latest",
+    "@supabase/supabase-js": "^2.57.4",
     "ethers": "latest",
     "form-data": "latest",
     "next": "latest",
