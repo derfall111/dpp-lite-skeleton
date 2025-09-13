@@ -13,20 +13,21 @@
   },
   "dependencies": {
     "@prisma/client": "latest",
+    "ethers": "latest",
+    "form-data": "latest",
     "next": "latest",
+    "qrcode": "^1.5.4",
     "react": "latest",
     "react-dom": "latest",
-    "zod": "latest",
-    "qrcode": "latest",
-    "form-data": "latest",
-    "ethers": "latest"
+    "zod": "latest"
   },
   "devDependencies": {
-    "prisma": "latest",
-    "typescript": "latest",
     "@types/node": "latest",
+    "@types/qrcode": "^1.5.5",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "eslint": "latest"
+    "eslint": "latest",
+    "prisma": "latest",
+    "typescript": "latest"
   }
 }
